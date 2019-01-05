@@ -1,0 +1,44 @@
+header, footer{
+    padding: 5px;
+    background-color: lightgrey;
+    border: solid 1px black;
+}
+
+header nav {
+    float: left;
+    margin-right: 10px;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 10px;
+}
+
+header nav li a{
+    text-decoration:none;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav li a:hover{
+    color: red;
+}
+
+img{
+    max-width: 100%;
+}
+
+footer {
+    padding: 10px;
+    border-radius: 3px;
+    text-align: right;
+}
+
+.container {
+    width: 989px;
+    padding: 10px;
+    margin: 0 auto; 
+    border: dotted black;   
+    background-color: whitesmoke;
+}
