@@ -8,7 +8,7 @@ let conceito = Conceito(media);
 
 console.log(media, conceito);
 
-function CalcularMedia(notas){
+function CalcularMedia(notas) {
     let soma = 0;
     for (let nota of notas) {
         soma += nota;
@@ -19,15 +19,15 @@ function CalcularMedia(notas){
     return media;
 }
 
-function Conceito(media){
-    if(media < 60)   return 'F';
-    
-    if(media < 70)   return 'D';
-    
-    if(media < 80)   return 'C';
+function Conceito(media) {
+    if (media < 60) return 'F';
 
-    if(media < 90)   return 'B';
-    
+    if (media < 70) return 'D';
+
+    if (media < 80) return 'C';
+
+    if (media < 90) return 'B';
+
     return 'A';
 }
 

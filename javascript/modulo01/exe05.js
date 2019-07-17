@@ -5,14 +5,14 @@ var filme = {
     titulo: 'Advanced 3.0',
     ano: 2018,
     nota: 4.7,
-    diretor: 'Alisson'
+    diretor: 'Alisson & Gustavo'
 }
 
 MostrarPropriedades(filme);
 
-function MostrarPropriedades(obj){
+function MostrarPropriedades(obj) {
     for (let key in obj) {
-        if(typeof(obj[key]) == "string"){
+        if (typeof (obj[key]) == "string") {
             console.log(key, obj[key]);
         }
     }
